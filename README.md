@@ -38,3 +38,15 @@ Epoch    GPU_mem   box_loss   obj_loss   cls_loss  Instances       Size
 ```
 
 The number we want to look at is the `mAP50-95`, the higher the number the better the performance of the model is.
+
+# Sample Detections 👓
+
+![sample_1](./samples/road102.png)
+
+![sample_2](./samples/road320.png)
+
+![sample_3](./samples/road710.png)
+
+![sample_4](./samples/road95.png)
+
+And as you can see, the confidence of the trained model is pretty good and keep in mind the model is only trained for `50 epochs` and performance is soooo good 👍.
